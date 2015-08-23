@@ -18,7 +18,7 @@
     "dist": "npm run build -- --config webpack.config.production.js",
     "lint": "eslint src",
     "start": "npm run build && node server.js",
-    "dev-tools": "DEV_TOOLS=1 npm start",
+    "dev-tools": "DEV_TOOLS=1 npm start"
   },
   "dependencies": {
     "babel-runtime": "^5.6.15",
