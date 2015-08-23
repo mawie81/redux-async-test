@@ -19,7 +19,6 @@
     "lint": "eslint src",
     "start": "npm run build && node server.js",
     "dev-tools": "DEV_TOOLS=1 npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "babel-runtime": "^5.6.15",
@@ -33,7 +32,6 @@
     "react-redux": "^0.9.0",
     "react-router": "^1.0.0-beta3",
     "redux": "^1.0.0",
-    "redux-devtools": "1.0.0",
     "redux-logger": "^1.0.5",
     "redux-thunk": "^0.1.0",
     "reselect": "0.0.2",
